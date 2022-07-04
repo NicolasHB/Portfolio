@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import CardHome from '../Components/Home/CardHome';
+import Layout from '../Components/Layout/Layout';
 
 export default function Home() {
   return (
-    <div>Home</div>
-  )
+    <Layout>
+      <CardHome/>
+    </Layout>
+  );
 }

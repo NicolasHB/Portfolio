@@ -1,7 +1,10 @@
 import React from 'react'
+import Layout from '../Components/Layout/Layout'
 
 export default function Testimony() {
   return (
-    <div>Testimony</div>
-  )
+    <Layout>
+      <div>Testimony</div>
+    </Layout>
+  );
 }

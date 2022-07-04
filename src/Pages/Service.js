@@ -1,7 +1,10 @@
 import React from 'react'
+import Layout from '../Components/Layout/Layout'
 
 export default function Service() {
   return (
-    <div>Service</div>
-  )
+    <Layout>
+      <div>Service</div>
+    </Layout>
+  );
 }

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Navitems from './Navitems';
 
 export default function Navigation() {
   const items = [
@@ -33,13 +34,22 @@ export default function Navigation() {
       id: 6,
     },
   ];
+  
 
   return (
     <nav>
-      <div className="">
-        <ul className="flex space-x-5 text-white font-bold">
+      <div className="flex p-5 ">
+        <div className="">
+          <h1 className="text-3xl font-bold">
+            Smith<span className="text-indigo-400">.</span>CV
+          </h1>
+        </div>
+        <ul
+          className="bg-blue-800 flex space-x-5 text-white font-light"
+          
+        >
           {items.map((item) => (
-            <ItemNav slug={item.slug} key={item.id} name={item.name} />
+            <Navitems slug={item.slug} key={item.id} name={item.name} />
           ))}
         </ul>
       </div>
