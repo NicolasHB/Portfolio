@@ -40,14 +40,11 @@ export default function Navigation() {
     <nav>
       <div className="flex p-5 ">
         <div className="">
-          <h1 className="text-3xl font-bold">
+          <h1 className="text-3xl font-bold p-3">
             Smith<span className="text-indigo-400">.</span>CV
           </h1>
         </div>
-        <ul
-          className="bg-blue-800 flex space-x-5 text-white font-light"
-          
-        >
+        <ul className="bg-blue-800 flex space-x-5 text-white font-light items-center p-3  divide-x flex-row leading-[2.6] ">
           {items.map((item) => (
             <Navitems slug={item.slug} key={item.id} name={item.name} />
           ))}
@@ -56,3 +53,4 @@ export default function Navigation() {
     </nav>
   );
 }
+

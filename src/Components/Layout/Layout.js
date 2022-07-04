@@ -7,8 +7,8 @@ export default function Layout({children}) {
   return (
     <div className="">
       <Navigation />
+      <main className='flex'>
       <CardProfil />
-      <main>
         {children}
       </main>
       <Footer />
