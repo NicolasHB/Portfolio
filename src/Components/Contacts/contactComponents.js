@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactFormulaire from './ContactFormulaire';
 
 export default function ContactComponents() {
   return (
@@ -12,8 +13,12 @@ export default function ContactComponents() {
         </p>
       </div>
       <div className="">
-          {/* formumaire (name, mail, subject, message) */}
-          <button></button>
+        <ContactFormulaire />
+        <div className="pt-5">
+          <button className=" bg-blue-800 text-white ">
+            Send Message
+          </button>
+        </div>
       </div>
     </div>
   );
