@@ -1,5 +1,5 @@
 import React from 'react';
-import circleHome from './circleHome';
+import CircleHome from './CircleHome';
 
 export default function CardHome() {
   return (
@@ -19,7 +19,7 @@ export default function CardHome() {
           doloremque obcaecati voluptatem!
         </p>
       </div>
-      <circleHome/>
+      <CircleHome/>
     </div>
   );
 }

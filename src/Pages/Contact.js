@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from '../Components/Layout/Layout';
-import contactComponents from '../Components/Contacts/contactComponents';
+import ContactComponents from '../Components/Contacts/ContactComponents';
 
 export default function Contact() {
   return (
     <Layout>
-      <contactComponents/>
+      <ContactComponents/>
     </Layout>
   );
 }

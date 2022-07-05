@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Navitems({slug, id, name}) {
   return (
-    <li key={id} className="">
+    <li key={id} className="mr-[0.5rem]">
       <Link to={slug}>{name}</Link>
     </li>
   );

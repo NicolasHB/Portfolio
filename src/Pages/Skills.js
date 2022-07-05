@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from '../Components/Layout/Layout';
-import skillsComponents from '../Components/Skill/skillsComponents';
+import SkillsComponents from '../Components/Skill/SkillsComponents';
 
 
 export default function Skills() {
   return (
     <Layout>
-      <skillsComponents />
+      <SkillsComponents />
     </Layout>
   );
 }

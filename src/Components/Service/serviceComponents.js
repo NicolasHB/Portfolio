@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function serviceComponents() {
+export default function ServiceComponents() {
   return (
     <div className="bg-gray-50 p-5 mr-10">
       <div className="">

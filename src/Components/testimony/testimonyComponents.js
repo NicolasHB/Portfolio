@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function testimonyComponents() {
+export default function TestimonyComponents() {
   return (
     <div className="bg-gray-50 p-5 mr-10">
       <div className="">

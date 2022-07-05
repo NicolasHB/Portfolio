@@ -17,7 +17,14 @@
 import React from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 
-const percentage = 66;
+
+export default function CircleHome() {
+  
+    
+
+
+const percentage = 75;
+return (
 
 <CircularProgressbar
   value={percentage}
@@ -44,4 +51,5 @@ const percentage = 66;
     trailColor: "#d6d6d6",
     backgroundColor: "#3e98c7",
   })}
-/>;
+/>
+)}

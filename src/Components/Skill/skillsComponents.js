@@ -1,6 +1,10 @@
 import React from 'react';
+import SkillsSection1 from './SkillsSection1';
+import SkillsSection2 from './SkillsSection2';
+import SkillsSection3 from './SkillsSection3';
 
-export default function skillsComponents() {
+
+export default function SkillsComponents() {
   return (
     <div className="bg-gray-50 p-5 mr-10 	">
       <div className="">
@@ -15,9 +19,10 @@ export default function skillsComponents() {
           doloribus quod?
         </p>
       </div>
-      <div className="">
-        {/* Gradiant progress bar */}
-      </div>
+      <SkillsSection1 />
+      <SkillsSection2 />
+      <SkillsSection3 />
+      
     </div>
   );
 }

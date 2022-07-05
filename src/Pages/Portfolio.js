@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from '../Components/Layout/Layout';
-import folioComponents from '../Components/PortFolio/folioComponents';
+import FolioComponents from '../Components/PortFolio/FolioComponents';
 
 export default function Portfolio() {
   return (
     <Layout>
-      <folioComponents />
+      <FolioComponents />
     </Layout>
   );
 }

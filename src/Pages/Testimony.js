@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from '../Components/Layout/Layout';
-import testimonyComponents from '../Components/testimony/testimonyComponents';
+import TestimonyComponents from '../Components/testimony/TestimonyComponents';
 
 export default function Testimony() {
   return (
     <Layout>
-      <testimonyComponents />
+      <TestimonyComponents />
     </Layout>
   );
 }

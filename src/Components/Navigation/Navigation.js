@@ -44,7 +44,7 @@ export default function Navigation() {
             Smith<span className="text-indigo-400">.</span>CV
           </h1>
         </div>
-        <ul className="bg-blue-800 flex space-x-5 text-white font-light items-center p-3  divide-x flex-row leading-[2.6] ">
+        <ul className="bg-blue-800 flex space-x-5 text-white  items-center divide-x  leading-[2.6] m-3">
           {items.map((item) => (
             <Navitems slug={item.slug} key={item.id} name={item.name} />
           ))}
