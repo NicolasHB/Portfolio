@@ -7,7 +7,7 @@ export default function Layout({children}) {
   return (
     <div className="">
       <Navigation />
-      <main className='flex'>
+      <main className='flex sm:flex-col'>
       <CardProfil />
         {children}
       </main>

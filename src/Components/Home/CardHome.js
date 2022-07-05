@@ -3,7 +3,7 @@ import CircleHome from './CircleHome';
 
 export default function CardHome() {
   return (
-    <div className="bg-gray-50 p-5 mr-10 	">
+    <div className="bg-gray-50 p-5 mr-10 ">
       <div className="">
         <h2 className="text-gray-600 text-2xl ">Développeur full Stack</h2>
         <h1 className="text-6xl font-extrabold pb-10">Justin Bieber</h1>
