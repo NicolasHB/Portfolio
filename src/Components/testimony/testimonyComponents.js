@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import TestiCaroussel from './TestiCaroussel';
 
 export default function TestimonyComponents() {
   return (
@@ -8,9 +9,8 @@ export default function TestimonyComponents() {
         <h1 className="text-6xl font-extrabold pb-10">Témoignages</h1>
       </div>
       <div className="">
-        {/* CARD temoin(title, img, name) */}
+          <TestiCaroussel />
       </div>
-      
     </div>
   );
 }
