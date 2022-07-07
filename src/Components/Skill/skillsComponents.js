@@ -1,4 +1,5 @@
 import React from 'react';
+import SkillProgressBar from './SkillProgressBar';
 import SkillsSection1 from './SkillsSection1';
 import SkillsSection2 from './SkillsSection2';
 import SkillsSection3 from './SkillsSection3';
@@ -22,7 +23,7 @@ export default function SkillsComponents() {
       <SkillsSection1 />
       <SkillsSection2 />
       <SkillsSection3 />
-      
+      <SkillProgressBar />
     </div>
   );
 }

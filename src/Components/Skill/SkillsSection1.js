@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function SkillsSection1() {
   return (
-    <div className=" grid-cols-2 flex space-x-20 ">
+    <div className=" grid-cols- flex space-x-20 ">
         <div className="relative pt-1 ">
           <div className="flex mb-2 items-center justify-between">
             <div>
@@ -44,5 +44,6 @@ export default function SkillsSection1() {
           </div>
         </div>
       </div>
+      
   )
 }
