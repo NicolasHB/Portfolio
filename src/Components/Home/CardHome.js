@@ -1,5 +1,6 @@
 import React from 'react';
 import CircleHome from './CircleHome';
+import Circleitem from './CircleItems';
 
 export default function CardHome() {
   return (

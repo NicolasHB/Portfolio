@@ -1,31 +1,44 @@
 import React from 'react';
+import CircleItems from './CircleItems';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 
 
 export default function circleHome() {
-    const percentage = 30;
+    const Circleitems = 
+   
+    [
+        {
+        percentage: 75,
+        name: "intution",
+        id: 1,
+        },
+        {
+        percentage:83 ,
+        name: "Creativité",
+        id: 2,
+        },
+        {
+        percentage: 25,
+        name: "Pure Luck",
+        id: 3,
+        },
+        {
+        percentage: 95,
+        name: "Awesomeness",
+        id: 4,
+        },
+
+    ];
   return (
-    //
-    
-      <CircularProgressbar
-        value={percentage}
-        text={`${percentage}%`}
-        width= '20%'
-        height= '10px'
-        background
-        backgroundPadding={6}
-        styles={buildStyles({
-          backgroundColor: "#3e98c7",
-          textColor: "#fff",
-          pathColor: "#fff",
-          trailColor: "transparent",
-        })}
-      />
-    
+    <div className=" flex space-x-5  " style={{ width: 60, height: 60 }}>
+      {Circleitems.map((Citem) => (
+        <CircleItems
+          percentage={Citem.percentage}
+          name={Citem.name}
+          key={Citem.id}
+        />
+      ))}
+    </div>
   );
 }
 
-// .CircularProgressbar{
-//     width: 50;
-//     height: 59;
-// }
