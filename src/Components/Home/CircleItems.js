@@ -5,7 +5,7 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 export default function Circleitems({ percentage, name, id }) {
   return (
     <div
-      className="flex" style={{ width: 100, height: 100 }}
+      className="flex" style={{ width: 80, height: 80 }}
     >
       <CircularProgressbar
         value={percentage}
@@ -21,9 +21,10 @@ export default function Circleitems({ percentage, name, id }) {
           textColor: "#fff",
           pathColor: "#fff",
           trailColor: "transparent",
-          
+
         })}
       />
+      {/* <p className="text-sm">{name}</p> */}
     </div>
   );
 }

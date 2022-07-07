@@ -1,6 +1,5 @@
 import React from 'react';
 import CircleItems from './CircleItems';
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 
 
 export default function circleHome() {
@@ -30,7 +29,7 @@ export default function circleHome() {
 
     ];
   return (
-    <div className=" flex space-x-5  " style={{ width: 60, height: 60 }}>
+    <div className=" flex space-x-5 pt-10 pl-40 pr-40 pb-10" >
       {Circleitems.map((Citem) => (
         <CircleItems
           percentage={Citem.percentage}
